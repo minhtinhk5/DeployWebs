@@ -61,3 +61,4 @@ Rollback thủ công: `bash ops/cicd/rollback.sh`.
 - UFW chỉ mở SSH (có `limit`), 80, 443, 8443; Fail2ban chặn brute-force SSH và IP spam vượt rate limit của nginx; nginx giới hạn 20 req/s mỗi IP; sysctl bật SYN cookies.
 - App: rate limit OTP/đăng nhập/form bằng Redis, chữ ký webhook, khóa API nội bộ cho bot, mật khẩu bcrypt.
 - Backup mã hóa AES-256 (PBKDF2 200k vòng), file quyền 600, tự xóa sau 7 ngày.
+test webhooks
